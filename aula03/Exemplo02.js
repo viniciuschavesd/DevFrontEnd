@@ -1,3 +1,5 @@
+// Função anonima
+
 function mensagem() {
     let resultado = "";
     for (let x = 0; x < arguments.length; x++) {
@@ -5,7 +7,9 @@ function mensagem() {
     }
     return resultado;
 }
+
 let um = mensagem("Oi tudo bem?");
 let dois = mensagem("Boa", "noite!");
 let tres = mensagem("HTML", "CSS e", "JavaScript");
+
 console.log(um, dois, tres);
