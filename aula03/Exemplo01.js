@@ -1,7 +1,8 @@
 // Usando função para alterar a propriedade de um objeto
 
 function aumentaSalario(j){
-    j.salario=1500000;
+    //j.salario *= 4.5;
+    j['salario'] *= 4.5; //Com array
 }
 
 let jogador = {
@@ -12,4 +13,5 @@ let jogador = {
 
 aumentaSalario(jogador);
 
-console.log('Salário: ', jogador.salario);
+console.log('Salário: R$', jogador.salario);
+
