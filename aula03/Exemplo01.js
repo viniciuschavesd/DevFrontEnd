@@ -1,3 +1,5 @@
+// Usando função para alterar a propriedade de um objeto
+
 function aumentaSalario(j){
     j.salario=1500000;
 }
