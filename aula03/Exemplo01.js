@@ -7,8 +7,7 @@ function aumentaSalario(j){
 let jogador = {
     nome: "Garrincha",
     posicao: "atacante",
-    salario: 12000 ,
-    altura: 10
+    salario: 12000
 };
 
 aumentaSalario(jogador);
