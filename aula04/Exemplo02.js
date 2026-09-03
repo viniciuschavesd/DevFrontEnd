@@ -14,5 +14,5 @@ console.log("\n-Vetor:");
 let vetor = ["Batman", "Flash", "Thanos", "Visão"];
 
 for (let nomeVetor in vetor){
-    console.log(vetor[nomeVetor]); //Usar somente nomeVetor irá imprimir os indices
+    console.log(vetor[nomeVetor]); //Usar somente nomeVetor irá imprimir os índices
 }
