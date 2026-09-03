@@ -21,6 +21,6 @@ let usuarios = [{
 }];
 
 for (let objeto of usuarios) {
-    console.log(objeto.nome); // exibe o valor da propriedade nome de cada objeto
-    console.log(objeto); // exibe cada um dos objetos 
+    console.log(objeto.nome);
+    console.log(objeto); // exibe cada um dos objetos e propriedades
 }
