@@ -1,1 +1,4 @@
-Todos os exercícios e exemplos das aulas de Desenvolvimento Front-End.
+* Repositório usado apenas para estudo. *
+
+- Todos os exercícios e exemplos das aulas de Desenvolvimento Front-End.
+
