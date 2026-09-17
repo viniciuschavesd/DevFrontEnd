@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #b92929;
+}
+
+header p {
+    font-size: 0.85rem;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #5c1212;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1rem;
+    color: #b92929;
+    font-weight: normal;
+}
+
+/* Seções */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+section h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #b92929;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: #777777;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
