@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cff1ef;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+header h1 {
+    font-size: 1.8rem;
+    color: #5c1212;
+    margin-bottom: 5px;
+}
+.botoes {
+    justify-content: center;   
+    gap:16px;
+}
