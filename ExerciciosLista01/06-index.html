@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>06 - Cadastro de Produtos</title>
+    <link rel="stylesheet" href="06-style.css">
+</head>
+<body>
+    <header>
+        <h1>06 - Cadastro de produtos com objetos</h1>
+    </header>
+
+    <!-- Seção 1: Cadastrar Produto -->
+    <section>
+        <h2>Cadastrar Produto</h2>
+        <p><input type="text" id="inputNome" placeholder="Nome do produto..."></p>
+        <p><input type="number" id="inputPreco" placeholder="Preço (ex: 99.90)" step="0.01"></p>
+        <p><input type="text" id="inputCategoria" placeholder="Categoria (ex: Eletrônicos)"></p>
+        <p><input type="number" id="inputEstoque" placeholder="Quantidade em estoque..."></p>
+        <button id="btnSalvarProduto">Salvar Produto</button>
+        <p id="msgFeedbackProd"></p>
+    </section>
+
+    <!-- Seção 2: Todos os Produtos com Filtros Integrados -->
+    <section>
+        <h2>Todos os Produtos</h2>
+        <div class="filtros-painel">
+            <select id="filtroCategoria">
+                <option value="">Todas as categorias</option>
+            </select>
+            <label class="checkbox-container">
+                <input type="checkbox" id="filtroSemEstoque"> Apenas sem estoque
+            </label>
+        </div>
+        <ul id="listaTodos"></ul>
+    </section>
+
+    <script src="06-script.js" defer></script>
+</body>
+</html>
