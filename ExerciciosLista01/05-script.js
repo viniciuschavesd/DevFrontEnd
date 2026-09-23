@@ -11,11 +11,13 @@ const secAdd = document.getElementById("secAdd");
 const secList = document.getElementById("secList");
 const listar = document.getElementById("listar");
 
+
 btnListarTarefas.addEventListener("click", () => {
     secList.classList.remove("hidden");
     secAdd.classList.add("hidden");
     listarTarefas();
 });
+
 
 function adicionarTarefa() {
     const tarefa = txtTarefa.value.trim();
@@ -35,7 +37,14 @@ function adicionarTarefa() {
     setTimeout(() => {
         msgFeedback.textContent = "";
     }, 1300);
+
+    // Garante que a seção da lista aparece e atualiza os itens
+    secList.classList.remove("hidden");
+    listarTarefas();
+
 }
+
+
 
 function listarTarefas() {
     // Limpa a lista antes de exibir
@@ -71,6 +80,8 @@ function removerTarefa(indice) {
 function limparFeedback() {
     msgFeedback.textContent = "";
 }
+
+
 
 // Evento do botão salvar (ID real: btnAdd)
 btnAdd.addEventListener("click", adicionarTarefa);
